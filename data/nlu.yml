@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,12 +15,11 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    -sup
-
+    - sup
 - intent: goodbye
   examples: |
     - cu
-    -talk to you later
+    - talk to you later
     - good by
     - cee you later
     - good night
@@ -31,7 +29,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -40,24 +37,19 @@ nlu:
     - of course
     - that sounds good
     - correct
-
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: gratitude
   examples: |
     - thank you?
     - thanks
-
-
 - intent: describe_symptoms
   examples: |
-    -i am feeling cramps and i have neck pain
+    - i am feeling cramps and i have neck pain
     - i am feeling [drowsy](symptom) and i am [coughing](symptom) alot
     - I don't feel well, I have [blurry vision](symptom)
     - My child is suffering from [pelvic pain](symptom)
@@ -459,4 +451,5 @@ nlu:
     - My child is suffering from [tired](symptom), [bleeding gums](symptom), [arm redness](symptom), [hand numbness](symptom)
     - I have [change in behavior](symptom), [discharge from ear](symptom), [cough](symptom), [low blood sugar](symptom)
     - My daughter is suffering from [arm numbness](symptom), [ear pressure](symptom), [ringing in ears](symptom), [drooping eyelid](symptom)
-
+    - i am felling like [vomiting](symptom)
+    - i am feeling like [vomiting](symptom)
